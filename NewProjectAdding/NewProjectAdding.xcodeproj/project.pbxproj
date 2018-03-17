@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C0038ADE2033491C0040589C /* CollectionJSON.txt in Resources */ = {isa = PBXBuildFile; fileRef = C0038ADD2033491C0040589C /* CollectionJSON.txt */; };
+		278B8D2D205D877B0092E281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278B8D2C205D877B0092E281 /* AppDelegate.swift */; };
+		278B8D2F205D877B0092E281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278B8D2E205D877B0092E281 /* ViewController.swift */; };
+		278B8D32205D877B0092E281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278B8D30205D877B0092E281 /* Main.storyboard */; };
+		278B8D34205D877B0092E281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278B8D33205D877B0092E281 /* Assets.xcassets */; };
+		278B8D37205D877B0092E281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278B8D35205D877B0092E281 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		278B8D42205D877C0092E281 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 278B8D3E205D877B0092E281 /* NewProjectAdding.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 278B8D29205D877B0092E281;
-			remoteInfo = NewProjectAdding;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		278B8D3E205D877B0092E281 /* NewProjectAdding.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NewProjectAdding.xcodeproj; path = NewProjectAdding/NewProjectAdding.xcodeproj; sourceTree = "<group>"; };
-		C0038AB22032DC280040589C /* VirtualDuskTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = VirtualDuskTask.app; path = "/Users/pavangadipudi/Desktop/VirtualDuskTask/build/Debug-iphoneos/VirtualDuskTask.app"; sourceTree = "<absolute>"; };
-		C0038ADD2033491C0040589C /* CollectionJSON.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CollectionJSON.txt; sourceTree = "<group>"; };
+		278B8D29205D877B0092E281 /* NewProjectAdding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProjectAdding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		278B8D2C205D877B0092E281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		278B8D2E205D877B0092E281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		278B8D31205D877B0092E281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		278B8D33205D877B0092E281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		278B8D36205D877B0092E281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		278B8D38205D877B0092E281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C0038AAF2032DC280040589C /* Frameworks */ = {
+		278B8D26205D877B0092E281 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,59 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		278B8D3F205D877B0092E281 /* Products */ = {
+		278B8D20205D877B0092E281 = {
 			isa = PBXGroup;
 			children = (
-				278B8D43205D877C0092E281 /* NewProjectAdding.app */,
+				278B8D2B205D877B0092E281 /* NewProjectAdding */,
+				278B8D2A205D877B0092E281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		278B8D2A205D877B0092E281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				278B8D29205D877B0092E281 /* NewProjectAdding.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0038AA92032DC270040589C = {
+		278B8D2B205D877B0092E281 /* NewProjectAdding */ = {
 			isa = PBXGroup;
 			children = (
-				278B8D3E205D877B0092E281 /* NewProjectAdding.xcodeproj */,
-				C0038ADD2033491C0040589C /* CollectionJSON.txt */,
+				278B8D2C205D877B0092E281 /* AppDelegate.swift */,
+				278B8D2E205D877B0092E281 /* ViewController.swift */,
+				278B8D30205D877B0092E281 /* Main.storyboard */,
+				278B8D33205D877B0092E281 /* Assets.xcassets */,
+				278B8D35205D877B0092E281 /* LaunchScreen.storyboard */,
+				278B8D38205D877B0092E281 /* Info.plist */,
 			);
+			path = NewProjectAdding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C0038AB12032DC280040589C /* VirtualDuskTask */ = {
+		278B8D28205D877B0092E281 /* NewProjectAdding */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0038AC42032DC280040589C /* Build configuration list for PBXNativeTarget "VirtualDuskTask" */;
+			buildConfigurationList = 278B8D3B205D877B0092E281 /* Build configuration list for PBXNativeTarget "NewProjectAdding" */;
 			buildPhases = (
-				C0038AAE2032DC280040589C /* Sources */,
-				C0038AAF2032DC280040589C /* Frameworks */,
-				C0038AB02032DC280040589C /* Resources */,
+				278B8D25205D877B0092E281 /* Sources */,
+				278B8D26205D877B0092E281 /* Frameworks */,
+				278B8D27205D877B0092E281 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = VirtualDuskTask;
-			productName = VirtualDuskTask;
-			productReference = C0038AB22032DC280040589C /* VirtualDuskTask.app */;
+			name = NewProjectAdding;
+			productName = NewProjectAdding;
+			productReference = 278B8D29205D877B0092E281 /* NewProjectAdding.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C0038AAA2032DC280040589C /* Project object */ = {
+		278B8D21205D877B0092E281 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
-				ORGANIZATIONNAME = "Pavankumar G";
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "pavan Gadipudi";
 				TargetAttributes = {
-					C0038AB12032DC280040589C = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Manual;
+					278B8D28205D877B0092E281 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = C0038AAD2032DC280040589C /* Build configuration list for PBXProject "VirtualDuskTask" */;
+			buildConfigurationList = 278B8D24205D877B0092E281 /* Build configuration list for PBXProject "NewProjectAdding" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -97,55 +108,62 @@
 				en,
 				Base,
 			);
-			mainGroup = C0038AA92032DC270040589C;
-			productRefGroup = C0038AA92032DC270040589C;
+			mainGroup = 278B8D20205D877B0092E281;
+			productRefGroup = 278B8D2A205D877B0092E281 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 278B8D3F205D877B0092E281 /* Products */;
-					ProjectRef = 278B8D3E205D877B0092E281 /* NewProjectAdding.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				C0038AB12032DC280040589C /* VirtualDuskTask */,
+				278B8D28205D877B0092E281 /* NewProjectAdding */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		278B8D43205D877C0092E281 /* NewProjectAdding.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = NewProjectAdding.app;
-			remoteRef = 278B8D42205D877C0092E281 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
-		C0038AB02032DC280040589C /* Resources */ = {
+		278B8D27205D877B0092E281 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0038ADE2033491C0040589C /* CollectionJSON.txt in Resources */,
+				278B8D37205D877B0092E281 /* LaunchScreen.storyboard in Resources */,
+				278B8D34205D877B0092E281 /* Assets.xcassets in Resources */,
+				278B8D32205D877B0092E281 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C0038AAE2032DC280040589C /* Sources */ = {
+		278B8D25205D877B0092E281 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278B8D2F205D877B0092E281 /* ViewController.swift in Sources */,
+				278B8D2D205D877B0092E281 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		278B8D30205D877B0092E281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278B8D31205D877B0092E281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		278B8D35205D877B0092E281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278B8D36205D877B0092E281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		C0038AC22032DC280040589C /* Debug */ = {
+		278B8D39205D877B0092E281 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -193,7 +211,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -202,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		C0038AC32032DC280040589C /* Release */ = {
+		278B8D3A205D877B0092E281 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -252,39 +270,29 @@
 			};
 			name = Release;
 		};
-		C0038AC52032DC280040589C /* Debug */ = {
+		278B8D3C205D877B0092E281 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Rajesh Koyakkeel (TEF4T49U5C)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5X5267WVRT;
-				INFOPLIST_FILE = VirtualDuskTask/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewProjectAdding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.testdemoApps;
+				PRODUCT_BUNDLE_IDENTIFIER = Pavan.NewProjectAdding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c8f33d82-a489-4afa-889f-43699a52528b";
-				PROVISIONING_PROFILE_SPECIFIER = testDemoApps;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C0038AC62032DC280040589C /* Release */ = {
+		278B8D3D205D877B0092E281 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Rajesh Koyakkeel (TEF4T49U5C)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5X5267WVRT;
-				INFOPLIST_FILE = VirtualDuskTask/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewProjectAdding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.testdemoApps;
+				PRODUCT_BUNDLE_IDENTIFIER = Pavan.NewProjectAdding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c8f33d82-a489-4afa-889f-43699a52528b";
-				PROVISIONING_PROFILE_SPECIFIER = testDemoApps;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -293,25 +301,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C0038AAD2032DC280040589C /* Build configuration list for PBXProject "VirtualDuskTask" */ = {
+		278B8D24205D877B0092E281 /* Build configuration list for PBXProject "NewProjectAdding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0038AC22032DC280040589C /* Debug */,
-				C0038AC32032DC280040589C /* Release */,
+				278B8D39205D877B0092E281 /* Debug */,
+				278B8D3A205D877B0092E281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0038AC42032DC280040589C /* Build configuration list for PBXNativeTarget "VirtualDuskTask" */ = {
+		278B8D3B205D877B0092E281 /* Build configuration list for PBXNativeTarget "NewProjectAdding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0038AC52032DC280040589C /* Debug */,
-				C0038AC62032DC280040589C /* Release */,
+				278B8D3C205D877B0092E281 /* Debug */,
+				278B8D3D205D877B0092E281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C0038AAA2032DC280040589C /* Project object */;
+	rootObject = 278B8D21205D877B0092E281 /* Project object */;
 }
